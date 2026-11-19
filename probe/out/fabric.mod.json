@@ -1,0 +1,1 @@
+{"schemaVersion":1,"id":"vbmod-probe","version":"1.0.2","name":"VB Probe","license":"MIT","environment":"client","entrypoints":{"client":["vbmod.probe.Probe"]},"depends":{"fabricloader":">=0.15.0","minecraft":"*","java":">=21"}}

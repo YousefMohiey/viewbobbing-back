@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "vbmod.legacy",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LegacyAccessibilityMixin",
+    "LegacyVideoMixin",
+    "LegacySodiumConfigMixin",
+    "LegacySodiumPagesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "plugin": "vbmod.LegacyOnlyPlugin"
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "viewbobbingback",
+  "version": "1.1.0",
+  "name": "View Bobbing Back",
+  "description": "Moves View Bobbing out of Accessibility and back into Video Settings, where it was.",
+  "authors": [
+    "Yousef"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "viewbobbing-back.mixins.json",
+    "viewbobbing-back.sodium.mixins.json",
+    "viewbobbing-back.legacy.mixins.json"
+  ],
+  "suggests": {
+    "sodium": "*"
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "*",
+    "java": ">=21"
+  }
+}

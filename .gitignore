@@ -1,0 +1,14 @@
+build/
+libs/
+*.jar
+*.out
+*.jpg
+check-crop.jpg
+mod-icon-64.png
+fabric-installer.jar
+launch.py
+launch-*.out
+res/selftest/
+src/vbmod/test/
+gallery-*.png
+mod-icon.png
